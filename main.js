@@ -80,17 +80,17 @@ var myUndefined;
 
 // 11.
 var x = (false == 0);
-// A.false
+// A.true
 
 
 // 12.
 var y = (false == "");
-// A. false
+// A. true
 
 
 // 13.
 var z = (0 == "");
-// A.false
+// A.true
 
 
 // 14.
@@ -105,7 +105,7 @@ var b = (undefined == undefined);
 
 // 16.
 var c = (undefined == null);
-// A.false
+// A. undefined
 
 
 // 17.
@@ -145,7 +145,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:"True!"
+// A:undefined
 
 
 // 22.
