@@ -82,6 +82,8 @@ var myUndefined;
 var x = (false == 0);
 // A.true
 
+// false == 0; this is true
+// therefore, x == true
 
 // 12.
 var y = (false == "");
@@ -105,12 +107,14 @@ var b = (undefined == undefined);
 
 // 16.
 var c = (undefined == null);
-// A. undefined
+// A. true
 
 
 // 17.
 var d = (null == false);
 // A. false
+
+// boolean value is coerced to a number; false becomes 0; true becomes 1
 
 
 // 18.
@@ -145,8 +149,8 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:undefined
-
+// A:False
+// x is undefined
 
 // 22.
 if(""){
